@@ -1,0 +1,30 @@
+.allChats{
+    width: 50em;
+    height: 100em;
+}
+
+.interlocutor{
+    margin-top: 2vh;
+    width: 70vh;
+    height: 25vh;
+    background-color: white;
+    box-shadow: 2em 2em 3em rgb(177, 222, 230);
+    border-radius: 10px;
+}
+
+.chatWindow{
+    display: flex;
+}
+
+.messagesW{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: column;
+    align-items: center;
+    right: 2%;
+    top: 10%;
+    width: 47vw;
+    height: 100vh;
+}

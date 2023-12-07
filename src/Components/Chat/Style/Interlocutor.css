@@ -1,0 +1,51 @@
+.interlocutorName{
+    position: relative;
+    left: 17vh;
+    bottom: 6em;
+}
+
+.interlocutorLastMesAgo{
+    color: blue;
+    font-size: 1.3em;
+    margin-left: 50vh;
+    position: relative;
+    bottom: 14.7vh;
+}
+
+.interlocutorAction{
+    color: blue;
+    font-size: 1.3em;
+    position: relative;
+    left: 17vh;
+    bottom: 14vh;
+}
+
+.interlocutorLastMes{
+    width: 37em;
+    font-size: 1.3em;
+    position: relative;
+    bottom: 10vh;
+    left: 3vh;
+}
+
+.interlocuterImg{
+    width:12vh;
+    height:12vh;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    left: 3vh;
+    top: 1vh;
+}
+
+.interlocutorUnread{
+    width: 2vh;
+    height: 2vh;
+    text-align: center;
+    position: relative;
+    left: 63vh;
+    bottom: 15vh;
+    background-color: red;
+    color: white;
+    border-radius: 100%;
+}

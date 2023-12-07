@@ -1,0 +1,51 @@
+.chatHead{
+    margin-top: 5vh;
+    display: block;
+    font-size: 30px;
+}
+
+.crChatBtn{
+    border-radius: 10px;
+    border: #2A8BF2;
+    margin-top: 3vh;
+    color: white;
+    background: linear-gradient(to bottom right, #7CB8F7, #2A8BF2);
+    width: 20vh;
+    height: 5vh;
+    box-shadow: 1px 2px 2px;
+    margin-left: 25em;
+    position: relative;
+    bottom: 6em;
+    left: 15vh;
+    font-size: 17px;
+}
+
+.searchChat{
+    position: absolute;
+    width: 65vh;
+    height: 4.5vh;
+    left: 15%;
+    border-radius: 10px;
+    border: none;
+}
+
+.searchChatDiv{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1vh -1vh 3vh rgb(226, 220, 220);
+    width: 69.5vh;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+}
+
+.searchChat::placeholder{
+    color: #afb5bb;
+    font-size: large;
+    font-weight: 600;
+}
+
+.searchIco{
+    position: absolute;
+    bottom: 74%;
+    right: 85.5%;
+}

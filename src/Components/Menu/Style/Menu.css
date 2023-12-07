@@ -1,0 +1,13 @@
+.allEl{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.menu {
+    width: 20vh;
+    min-height: 100vh;
+    background-color: white;
+    margin-right: 5vh;
+    box-shadow: 2vh 2vh 2vh rgb(196, 232, 238);
+}

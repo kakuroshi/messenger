@@ -1,0 +1,73 @@
+.img-profile {
+	display: inline-block;
+	border-radius: 50%;
+	overflow: hidden;
+	width: 20vw;
+	height: 40vh;
+}
+
+.img-profile img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.profile-page {
+	padding: 2%;
+	background-color: white;
+	width: 80vw;
+}
+
+.head-profile {
+	display: flex;
+}
+
+.name-user-profile {
+	font-size: 3.5em;
+}
+
+.online-profile {
+	color: blue;
+}
+
+.user-inf-name {
+	display: flex;
+	flex-direction: column;
+	margin-left: 1%;
+}
+
+.hr-profile {
+	margin-top: 2vh;
+	margin-bottom: 1vh;
+}
+
+.photo-in-prof {
+	width: 15%;
+	margin-right: 1vw;
+}
+
+.photos-in-prof {
+	display: flex;
+	overflow-x: auto;
+}
+
+.add-post-profile {
+	margin-left: 50vw;
+	border-radius: 10px;
+	border: #2a8bf2;
+	margin-top: 3vh;
+	color: white;
+	background: linear-gradient(to bottom right, #7cb8f7, #2a8bf2);
+	width: 20vh;
+	height: 5vh;
+	box-shadow: 1px 2px 2px;
+	font-size: 17px;
+}
+
+.add-post-profile:hover {
+	background: linear-gradient(to bottom right, #689ad0, #257cd8);
+}
+
+.head-posts-profile {
+	display: flex;
+}

@@ -1,0 +1,31 @@
+.header-home {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header-home-btns {
+	display: flex;
+	justify-content: space-around;
+	width: 20%;
+}
+
+.profile-btn-home,
+.add-post-header-home {
+	background: linear-gradient(
+		70deg,
+		rgba(124, 184, 247, 1),
+		rgba(42, 139, 242, 1)
+	);
+	border: 0px;
+	font-size: 1.3em;
+	font-weight: 700;
+	height: 4vh;
+	border-radius: 10px;
+}
+
+.profile-btn-home:hover,
+.add-post-header-home {
+	background: linear-gradient(70deg, rgb(110, 164, 221), rgba(37, 120, 209));
+}

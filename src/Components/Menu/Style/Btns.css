@@ -1,0 +1,24 @@
+.btnSwitch{
+    margin: 3em;
+    margin-left: 3vh;
+    font-weight: 600;
+}
+
+.btnMenu{
+    color: rgb(32, 85, 182);
+    text-decoration: none;
+}
+
+.active{
+    text-decoration: none;
+    color: rgb(40, 69, 112);
+    border-left: solid;
+    border-bottom: solid;
+    border-bottom-left-radius: 10px;
+}
+
+#btn7 {
+    color: red;
+    position: relative;
+    top: 8em;
+}

@@ -1,0 +1,16 @@
+.userImg{
+    margin-top: 6em;
+    margin-bottom: 1em;
+    width:12vh;
+    height:12vh;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userName{
+    margin-bottom: 3em;
+}
+
+.user {
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+.userActions{
+    display: flex;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    border-top: solid;
+    border-color: rgba(112, 124, 151, 0.15);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.urMessage{
+    font-size: 1em;
+    font-weight: 550;
+}
+
+.urMessage:focus{
+    outline: none;
+}
+
+.urMessage{
+    border: 0px;
+    width: 30vw;
+    height: 5vh;
+}
+
+.addFile, .sendMessage{
+    margin-left: 1vw;
+    font-size: 3em;
+    display: flex;
+    height: 6vh;
+    width: 3vw;
+    margin-right: 1vw;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    background: linear-gradient(-30deg, rgba(42, 139, 242, 1), rgba(124, 184, 247, 1));
+    filter: drop-shadow(4px 6px 10px rgba(42, 139, 242, 0.15)) drop-shadow(2px 2px 25px rgba(42, 139, 242, 0.05)) drop-shadow(4px 4px 25px rgba(42, 139, 242, 0.15));
+    transition: background-color 0.5s
+}
+
+.addFile:hover, .sendMessage:hover{
+    background: linear-gradient(-30deg, rgb(19, 95, 177), rgb(105, 160, 219));
+}
+
+.smileBtn{
+    display: flex;
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    background: transparent;
+    filter: drop-shadow(4px 6px 10px rgba(42, 139, 242, 0.15)) drop-shadow(2px 2px 25px rgba(42, 139, 242, 0.05)) drop-shadow(4px 4px 25px rgba(42, 139, 242, 0.15));
+    transition: background-color 0.5s
+}
+
+.smileBtn:hover{
+    background: rgb(255, 255, 255);
+}
