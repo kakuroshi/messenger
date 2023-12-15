@@ -2,8 +2,8 @@
 	display: inline-block;
 	border-radius: 50%;
 	overflow: hidden;
-	width: 20vw;
-	height: 40vh;
+	width: 15vw;
+	height: 30vh;
 }
 
 .img-profile img {
@@ -42,8 +42,10 @@
 }
 
 .photo-in-prof {
-	width: 15%;
+	width: 25%;
+	height: 30vh;
 	margin-right: 1vw;
+	object-fit: cover;
 }
 
 .photos-in-prof {
@@ -70,4 +72,16 @@
 
 .head-posts-profile {
 	display: flex;
+}
+
+.btn-back-profile {
+	border-radius: 50%;
+	width: 2vw;
+	height: 4vh;
+	background-color: transparent;
+	border: 0px;
+}
+
+.btn-back-profile:hover {
+	background-color: rgb(238, 236, 236);
 }

@@ -1,0 +1,24 @@
+.add-com-cont{
+    margin-bottom: 2vh;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.add-com-news-inp{
+    font-size: 1.3em;
+    border: 1px solid;
+    border-color: rgb(177, 197, 214);
+    outline: none;
+    resize: none;
+}
+
+.add-com-btn{
+    margin-left: 2vw;
+    height: 4vh;
+    width: 10%;
+    background: linear-gradient(50deg, rgba(124, 184, 247, 1), rgba(42, 139, 242, 1));
+    color: white;
+    border: 0px;
+    font-size: 1.3em;
+}

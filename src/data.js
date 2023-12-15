@@ -9,7 +9,7 @@ export let state = {
 
     userImg: Ageres,
 
-    userImages: [Ageres, Ageres, Ageres, Ageres, Ageres, Ageres, Ageres, Ageres, Ageres, Ageres, Ageres],
+    userImages: [Ageres],
 
     dialogs: [
         {
@@ -45,22 +45,18 @@ export let state = {
 
     searchInput: "",
 
-    selectedChat: '',
+    selectedChat: '0',
 
     chatMeaages: [],
 
-    urMessage: ''
+    flagMes: 0
 }
 
-export function typingMes(mes) {
-    state.urMessage = mes
+state.chatMeaages = Array.from({ length: state.dialogs.length }, () => Array(0))
 
-    render(state)
-}
-
-export function addMesChat (message) {
+export function addMesChat(message, id) {
     if (message !== '') {
-        state.chatMeaages.push(message)
+        state.chatMeaages[id].push(message)
 
         state.urMessage = ''
 
@@ -70,8 +66,9 @@ export function addMesChat (message) {
     }
 }
 
-export function selectChat (id) {
+export function selectChat(id) {
     state.selectedChat = id
+    state.flagMes = 1;
 
     console.log(id);
 
@@ -83,12 +80,12 @@ export let users = []
 export const addUser = () => {
     const defAvatar = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Vladimir_Putin_September_5%2C_2022_%28cropped%29.jpg/260px-Vladimir_Putin_September_5%2C_2022_%28cropped%29.jpg"
 
-    const  unr = prompt("Непрочитанные")
-    const  nme = prompt("Имя")
-    const  lMesA = prompt("Когда последнее сообщение")
-    const  act = prompt("Действие")
-    const  lMes = prompt("Последнее сообщение")
-    
+    const unr = prompt("Непрочитанные")
+    const nme = prompt("Имя")
+    const lMesA = prompt("Когда последнее сообщение")
+    const act = prompt("Действие")
+    const lMes = prompt("Последнее сообщение")
+
     state.dialogs.push({
         id: state.dialogs.length,
         img: defAvatar,

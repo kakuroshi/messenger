@@ -19,7 +19,7 @@ const FunctionalPart = (props) => {
 		{
 			id: 2,
 			path: "/home",
-			component: () => <Home />,
+			component: () => <Home state={props.state} />,
 		},
 		{
 			id: 3,

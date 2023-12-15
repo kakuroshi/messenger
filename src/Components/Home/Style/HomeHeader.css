@@ -1,0 +1,36 @@
+.header-home{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.header-home-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+
+    .navlink-profile{
+        width: 40%;
+    }
+
+    .to-profile-home{
+        width: 100%;
+        height: 4vh;
+        background: linear-gradient(50deg,rgba(124, 184, 247, 1), rgba(42, 139, 242, 1));
+        border: 0px;
+        font-size: 1.3em;
+    }
+
+    >button {
+        height: 4vh;
+        width: 40%;
+        background: linear-gradient(50deg,rgba(124, 184, 247, 1), rgba(42, 139, 242, 1));
+        border: 0px;
+        font-size: 1.3em;
+    }
+    
+    >button:hover, .to-profile-home:hover{
+        background: linear-gradient(50deg,rgb(117, 172, 231), rgb(39, 130, 226));
+    }
+}

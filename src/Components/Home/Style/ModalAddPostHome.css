@@ -1,0 +1,35 @@
+.new-post-main-home{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 3vw;
+
+    >textarea{
+        resize: none;
+        outline: none;
+        border: 1px solid;
+        border-color: rgb(149, 158, 161);
+        font-size: 1.3em;
+        width: 60%;
+    }
+
+    >button{
+        margin-left: 2vw;
+        height: 4vh;
+        background: linear-gradient(50deg,rgba(124, 184, 247, 1), rgba(42, 139, 242, 1));
+        border: 0px;
+        font-size: 1.3em;
+        color: white;
+    }
+
+    >button:hover{
+        background: linear-gradient(50deg,rgb(117, 172, 231), rgb(40, 131, 228));
+    }
+}
+
+.modal-add-post-home{
+    margin-bottom: 2vh;
+
+    >h1{
+        margin-left: 3vw;
+    }
+}

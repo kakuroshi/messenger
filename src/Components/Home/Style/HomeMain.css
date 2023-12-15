@@ -1,0 +1,129 @@
+.main-home {
+    display: flex;
+    justify-content: center;
+}
+
+.post-home {
+    margin-top: 5vh;
+    width: 90%;
+    border: 2px solid;
+    border-color: rgb(192, 226, 226);
+    padding: 1%;
+}
+
+.img-post-user {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 4vw;
+    height: 8vh;
+}
+
+.img-post-user img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-head {
+    display: flex;
+}
+
+.user-post-name {
+    margin-left: 1vw;
+    font-size: 1.3em;
+}
+
+.img-in-post {
+    width: 15vw;
+    height: 35vh;
+    object-fit: cover;
+    padding-right: 1vw;
+}
+
+.images-post {
+    display: flex;
+    overflow: auto;
+}
+
+.hr-post {
+    margin-bottom: 2vh;
+}
+
+.footer-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    >button {
+        background-color: transparent;
+        border: 0px;
+    }
+}
+
+.likes-dislikes-post {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.likes-post,
+.dislikes-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    >button {
+        background-color: transparent;
+        border: 0px;
+    }
+}
+
+.comment-head {
+    display: flex;
+}
+
+.comment-user-img {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 3vw;
+    height: 6vh;
+}
+
+.comment-user-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-comment-name {
+    margin-left: 1vw;
+    font-size: 1.2em;
+}
+
+.comments-head-news {
+    margin-bottom: 2vh;
+}
+
+.add-com-btn-prof {
+    height: 4vh;
+    width: 10%;
+    background: linear-gradient(50deg, rgba(124, 184, 247, 1), rgba(42, 139, 242, 1));
+    color: white;
+    border: 0px;
+    font-size: 1.3em;
+    margin-left: 63vw;
+}
+
+.add-com-btn-prof:hover {
+    background: linear-gradient(50deg, rgb(117, 172, 231), rgb(40, 130, 226));
+}
+
+.comments-head-news{
+    display: flex;
+}
+
+.user-comment-post{
+    margin-bottom: 3vh;
+}
